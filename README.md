@@ -6,9 +6,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
-  <img src="https://img.shields.io/github/downloads/BenGorr/CS2_RemoveMapWeapons/total" alt="Downloads">
-  <img src="https://img.shields.io/github/stars/BenGorr/CS2_RemoveMapWeapons?style=flat&logo=github" alt="Stars">
-  <img src="https://img.shields.io/github/license/BenGorr/CS2_RemoveMapWeapons" alt="License">
+  <img src="https://img.shields.io/github/downloads/BenGorr/CS2-RemoveMapWeapons/total" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/BenGorr/CS2-RemoveMapWeapons?style=flat&logo=github" alt="Stars">
+  <img src="https://img.shields.io/github/license/BenGorr/CS2-RemoveMapWeapons" alt="License">
 </p>
 
 ## Building
