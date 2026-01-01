@@ -29,13 +29,13 @@ public partial class CS2_RemoveMapWeapons : BasePlugin {
 
     private void RemoveMapWeapons()
     {
-        Core.Logger.LogInformation("Removing map weapons.");
-        foreach (var entity in Core.EntitySystem.GetAllEntities())
+        var entities = Core.EntitySystem.GetAllEntities().ToList();
+        foreach (var entity in entities)
         {
-            if (entity == null) continue;
+            if (entity == null || entity.IsValid == false) continue;
             if (!entity.DesignerName.StartsWith("weapon_")) continue;
 
-            _ = entity.DespawnAsync();
+            entity.Despawn();
         }
     }
 
